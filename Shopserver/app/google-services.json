@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "969431624290",
+    "firebase_url": "https://shopify-15308.firebaseio.com",
+    "project_id": "shopify-15308",
+    "storage_bucket": "shopify-15308.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969431624290:android:3284de21ff45483e733f3b",
+        "android_client_info": {
+          "package_name": "com.mehmetbg.shopify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969431624290-qnrmkdmfj6hi2qin7i2eaa6vl8b92j10.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyHJlsW45Q5LxCz5SMGDMbURUUnkEVdzs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "969431624290-qnrmkdmfj6hi2qin7i2eaa6vl8b92j10.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969431624290:android:db082eba1fb493ca733f3b",
+        "android_client_info": {
+          "package_name": "com.mehmetbg.shopserver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969431624290-qnrmkdmfj6hi2qin7i2eaa6vl8b92j10.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyHJlsW45Q5LxCz5SMGDMbURUUnkEVdzs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "969431624290-qnrmkdmfj6hi2qin7i2eaa6vl8b92j10.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

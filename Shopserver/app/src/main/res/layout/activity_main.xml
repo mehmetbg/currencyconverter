@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9E9E9"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logoView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerPageButton"
+        app:srcCompat="@drawable/shopify" />
+
+    <ImageView
+        android:id="@+id/loginPageButton"
+        android:layout_width="277dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="96dp"
+        android:onClick="loginPageTrigger"
+        app:layout_constraintBottom_toTopOf="@+id/registerPageButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/login_button" />
+
+    <ImageView
+        android:id="@+id/registerPageButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="74dp"
+        android:onClick="registerPageTrigger"
+        app:layout_constraintBottom_toTopOf="@+id/logoView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/loginPageButton"
+        app:layout_constraintTop_toBottomOf="@+id/loginPageButton"
+        app:srcCompat="@drawable/register_button" />
+</androidx.constraintlayout.widget.ConstraintLayout>
